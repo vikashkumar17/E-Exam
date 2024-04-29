@@ -106,7 +106,7 @@ app.get("/api/file/:filename",(req,res,next)=>{
 
 mongoose
   .connect(
-    `mongodb+srv://vikash:8789966Friend@cluster0.3jr39nm.mongodb.net/test`,
+    `mongodb+srv://id:password@cluster0.3jr39nm.mongodb.net/test`,
   )
   .then(() => {
     app.listen(5000);
