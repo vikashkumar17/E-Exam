@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(to right top, #16171a, #151619, #141517, #121316, #111214, #141516, #171719, #19191b, #201f21, #262627, #2d2d2e, #343434);
+    background-repeat: no-repeat;
+    height: 867px;
+    /* width: 1695px */
+}
+.navbari{
+    overflow: hidden;
+    height:90px;
+    background-image: linear-gradient(to right top, #05163b, #091e48, #0e2556, #132e64, #173673, #144584, #0d5495, #0064a5, #007eb7, #0097c4, #00b0cd, #44c8d4);
+    display: flex;
+    column-gap: 50px;
+    border-bottom:2px solid #000000;
+}
+.logoi{
+    height:90px;
+    width:100px;
+}
+.logoi img{
+    height:90px;
+    width:100px;
+    border-radius: 20px;
+}
+.navlinksi{
+    flex-basis: 1250px;
+    margin-left: 600px;
+}
+.navuli{
+    font-size: 17px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    margin-top: 35px;
+}
+.navuli li{
+    display: inline;
+    border-right: 1px solid #bbb;
+}
+.navuli li a{
+    
+    padding: 40px;
+    text-decoration: none;
+    color:white
+}
+.user{
+    align-self: center;
+    justify-items: center;
+}
+.user button{
+    margin-right: 20px;
+    width: 110px;
+    height: 50px;
+    background-image: linear-gradient(to right top, #05163b, #06173a, #07183a, #081939, #0a1a38, #041c37, #011d34, #001e32, #001f2c, #061f26, #0e1e21, #151d1d);
+    color: white;
+    font-weight: bold;
+    font-size: 17px;
+    padding: 7px;
+    border-radius: 15px;
+    box-shadow: #131a61;
+    cursor: pointer;
+}
+.qdisplay{
+    height:500px;
+    margin-top: 3%;
+    overflow: auto;
+}
+.clr{
+    color: white;
+}
+
+.sub{
+    height: 50px;
+   width: 110px;
+   border-radius: 10px;
+   border: none;
+   color: #fff;
+   font-size: 18px;
+   font-weight: 500;
+   letter-spacing: 1px;
+   cursor: pointer;
+   transition: all 0.3s ease;
+   background: rgb(23, 46, 109)
+}
+.dsub
+{
+    height: 40px;
+   width: 150px;
+   border-radius: 10px;
+   border: none;
+   color: #fff;
+   font-size: 18px;
+   font-weight: 500;
+   letter-spacing: 1px;
+   cursor: pointer;
+   transition: all 0.3s ease;
+   background: rgb(13, 46, 119)
+}
+.err{
+    visibility: hidden;
+}
+.err1{
+    color:rgb(30, 0, 255);
+
+}
+.buto{
+    color: white;
+    background-color: rgb(64, 64, 231);
+    padding: 4px;
+    height: 40px;
+    width: 70px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.hde{
+    visibility: hidden;
+}
+/* #response
+{
+    border: 4px solid greenyellow !important;
+} */
+#right{
+    border-radius: 15px !important;
+    border: 6px solid greenyellow;
+}
+
+#welcome h2{
+    text-align: center !important;
+    color: rgb(37, 223, 46) !important;
+    margin-bottom: 10px !important;
+}

@@ -1,0 +1,49 @@
+<html>
+  <head>
+    <title>E-repo</title>
+    <link href="repo.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="logo">
+          <a href="/index"><img src="logi.png" /></a>
+        </div>
+        <div class="navlinks">
+          <ul class="navul">
+            <li><a href="/exam">E-Exam</a></li>
+            <li><a href="/forum">Open Forum</a></li>
+            <li><a href="#">E-Repository</a></li>
+            <li><a href="/mywall">My-Wall</a></li>
+          </ul>
+        </div>
+        <div class="user">
+          <form>
+            <button formaction="/login">Log Out</button>
+          </form>
+        </div>
+      </nav>
+    </header>
+    <div class="container">
+      <div class="card">
+        <form  action="/api/file" method="post" enctype="multipart/form-data">
+          <h3 id="upd">Upload Files</h3>
+          <br>
+          <div class="drop_box">
+            <header>
+              <h4 id="tg">Select File here</h4>
+            </header>
+            <input type="text" name="userId" id="userId">
+            <input type="file" name="filess" id="filess" class="btn">
+            <br><br>
+            <button type="submit" id="submit"  class="btn">Upload File</button>
+          </div>
+        </form>
+        <form>
+          <button class="btn" formaction="/vault">Open Vault</button>
+        </form>
+      </div>
+    </div>
+    <script src="repo.js"></script>
+  </body>
+</html>
